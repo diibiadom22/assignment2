@@ -1,0 +1,146 @@
+/* this is for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* this is a universal selector for all text on the html document */
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* this is for custom fonts */
+/* @font-face {
+    font-family: "myhtml-font";
+    src: url("./fonts/MonumentExtended-Ultrabold.otf");
+} */
+
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.overall {
+    background: #fff;
+    padding: 5px;
+}
+
+   header{
+        display: flex;
+    justify-content: space-between;
+     }
+
+     .site-nav ul{
+        display:flex;
+        
+     }
+ .site-nav ul li a{
+   line-height: 2.2;  
+ margin: 40px  ;
+  color:#1e0e62;
+  text-decoration:none;
+  margin-left: 50px;
+ }
+
+ .site-nav ul li{
+ list-style: none
+ }
+  
+
+
+
+     
+.btn {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgb(146, 142, 142);
+    padding:5px 30px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: #0000ff;
+    cursor: pointer;
+}
+
+.logo  {
+    margin-top: 22px;
+    }
+
+ .hero-part{
+    margin: 30px 50px;
+}
+
+.flexer{
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.body  h2{
+ color: #1e0e62 px;
+ font-size: 25px;
+}
+
+form{
+padding-bottom: 30px;
+}
+.farm{
+
+outline-style: none;
+box-shadow: none;
+background:transparent;
+padding: 8px 8px;
+border: 1px solid rgb(112,105,105);
+border-radius:  45px; 
+width: 355px;
+padding: bottom 15px;
+}
+
+.image{
+position:relative;
+}
+.tub2{
+ position:absolute;
+ top: 100px;
+right: 200px;
+}
+
+.hero-pics p{
+color:#1e0e62;
+}
+
+.hero-foot button{
+ color: #ffffff;
+border:0;
+background:#40e0d0;
+padding: 10px 20px;
+width: 380px;
+border-radius: 45px;
+}
+.hero-foot p{
+    text-align:center;
+    color: #1e0e62;
+ margin-top: 10px; 
+}
+
+.content-part h1{
+text-align: center;
+font-size: 45px;
+color: #1e0e62;
+}
+
+.content-part p{
+text-align: center;
+font-size: 15px;
+color:#1e0e62;
+}
+
+
+
+
+
+
+
+
